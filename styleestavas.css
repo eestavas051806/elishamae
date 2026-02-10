@@ -1,0 +1,148 @@
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+background-color: #f4f7fb;
+}
+
+/* ===== NAVBAR ===== */
+header {
+background-color: #0b2c4d;
+padding: 15px 60px;
+color: white;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo {
+font-size: 24px;
+font-weight: bold;
+}
+
+.logo span {
+color: #f5c400;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+gap: 25px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: white;
+font-size: 14px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: white;
+    }
+    
+    .hero-text {
+    max-width: 50%;
+    }
+    
+    .hero-text h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    }
+    
+    .hero-text h1 span {
+    color: #f5c400;
+    }
+    
+    .hero-text p {
+    color: #555;
+    margin-bottom: 25px;
+    line-height: 1.6;
+    }
+    
+    .buttons a {
+    display: inline-block;
+    padding: 12px 22px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #0b2c4d;
+    border-radius: 4px;
+    font-size: 14px;
+    }
+    
+    .buttons a.secondary {
+    background-color: #f5c400;
+    color: #0b2c4d;
+    }
+    
+    .hero img {
+    width: 350px;
+    border-radius: 5px;
+    }
+    
+    /* ===== SERVICES ===== */
+    .services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 60px;
+    background-color: #f4f7fb;
+    }
+    
+    .service-box {
+    background-color: #0b2c4d;
+    color: white;
+    padding: 25px;
+    width: 300px;
+    border-radius: 4px;
+    }
+    
+    .service-box h3 {
+    color: #f5c400;
+    margin-bottom: 10px;
+    }
+    
+    .service-box p {
+    font-size: 14px;
+    line-height: 1.5;
+    }
+    
+    /* ===== ABOUT SECTION ===== */
+    .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: white;
+    }
+    
+    .about-text {
+    max-width: 55%;
+    }
+    
+    .about-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    }
+    
+    .about-text p {
+    color: #555;
+    line-height: 1.6;
+    }
+    
+    .about img {
+    width: 300px;
+    border-radius: 5px;
+    }
+    </style>
